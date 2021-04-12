@@ -9,12 +9,8 @@ const Header = () => {
     <header className="headerContainer">
       <div className="headerDiv">
         <sidebar className="sidebarContainer">
-          <img src={Logo} />
-          {/* Product Overview Pricing Marketplace Features Integrations Company
-          About Team Blog Careers Connect Contact Newsletter LinkedIn
-          <button>Login</button>
-          <button>Sign Up</button> */}
-          <a>
+          <img src={Logo} alt="Logo" />
+          <a href="#">
             <img src={Hanburger} />
           </a>
         </sidebar>
