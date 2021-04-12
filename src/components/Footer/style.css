@@ -1,0 +1,23 @@
+.footerContainer {
+  background: hsl(240, 10%, 16%);
+  border-radius: 0 100px 0 0;
+  padding: 50px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footerContainer > img {
+  align-self: center;
+}
+.footerContainer > div > h4 {
+  margin: 10px;
+  color: white;
+}
+.footerContainer > div > p {
+  line-height: 2;
+  color: hsl(240, 2%, 79%);
+}

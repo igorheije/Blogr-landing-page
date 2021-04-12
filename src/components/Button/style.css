@@ -1,0 +1,16 @@
+.buttonContainer {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background-color: white;
+  font-weight: 600;
+  color: hsl(353, 100%, 62%);
+  font-size: 16px;
+  outline: none;
+}
+
+.buttonContainerT {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
