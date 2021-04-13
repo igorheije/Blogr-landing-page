@@ -4,9 +4,12 @@ import './style.css';
 const CircleBG = () => {
   return (
     <main className="mainCircle">
-      <img src={PhonesI} alt="Imagem De telefones" className="phonesI" />
-      <div className="circleContainer">
-        <div>
+      <div>
+        <div className="phoneDiv">
+          <img src={PhonesI} alt="Imagem De telefones" className="phonesI" />
+        </div>
+
+        <div className="circleContainer">
           <h1> State of the Art Infrastructure</h1>
           <p>
             With reliability and speed in mind, worldwide data centers provide

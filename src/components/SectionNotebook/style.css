@@ -1,0 +1,33 @@
+.notebookContainer {
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 50px;
+  margin: 250px auto 0 auto;
+}
+.imageNoteM {
+  display: none;
+}
+.imageNote > img {
+  width: 130%;
+  height: 100%;
+  transform: translate(-40%, -25%);
+}
+@media (max-width: 768px) {
+  .notebookContainer {
+    display: block;
+    margin: auto;
+    padding: 30px;
+  }
+  .imageNote {
+    display: none;
+  }
+  .imageNoteM {
+    display: block;
+    transform: translate(0%, 0%);
+  }
+  .imageNoteM > img {
+    width: 120%;
+  }
+}
